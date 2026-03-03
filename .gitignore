@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Notebook / logs / temp
+.ipynb_checkpoints/
+*.log
+*.tmp
+
+# Spark / streaming runtime artifacts
+metastore_db/
+derby.log
+spark-warehouse/
+checkpoints/
+
+# Local model and data artifacts
+models/
+data/
+
+# Build / distribution
+dist/
+build/
